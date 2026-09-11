@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LEKGS - Blog institucional, noticias y vida escolar.">
+  <title>LEKGS | Blog institucional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="LEKGS inicio">
+        <span class="brand-mark">▣</span><span>LEKGS</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+      <nav id="mainNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#vida-escolar">Vida Escolar</a>
+        <a href="#galeria">Galería</a>
+        <a href="#sobre-nosotros">Sobre nosotros</a>
+      </nav>
+      <button class="search-btn" id="searchBtn" aria-label="Buscar">⌕</button>
+    </div>
+  </header>
+
+  <div class="subnav">
+    <div class="container subnav-inner">
+      <a href="#inicio">QUÉ ES NUESTRO BLOG</a>
+      <a href="#noticias">NOTICIAS DEL COLEGIO</a>
+      <a href="#vida-escolar">NUESTRA VIDA ESCOLAR</a>
+      <a href="#entrevista">ENTREVISTA DEL MES</a>
+      <a href="#talentos">TALENTOS LEKGS</a>
+      <a href="#deportes">DEPORTES LEKGS</a>
+      <a href="#galeria">CULTURA Y ARTE</a>
+    </div>
+  </div>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container two-col hero-grid">
+        <div>
+          <span class="eyebrow">UN ESPACIO A LIBRO</span>
+          <h1>El pulso de<br>nuestra<br>comunidad<br>educativa</h1>
+          <p>Explora las historias, logros y momentos que definen la excelencia en el Colegio LEKGS. Un espacio dedicado a compartir nuestra visión académica y humana.</p>
+          <div class="actions">
+            <a class="btn primary" href="#noticias">Explorar Noticias</a>
+            <a class="btn secondary" href="#galeria">Ver Galería</a>
+          </div>
+        </div>
+        <img class="hero-img" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1100&q=85" alt="Estudiantes compartiendo en un espacio educativo">
+      </div>
+    </section>
+
+    <section class="section" id="noticias">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="eyebrow">LO MÁS RECIENTE</span><h2>Noticias del Colegio</h2></div>
+          <a href="#todas-noticias">VER TODAS LAS NOTICIAS →</a>
+        </div>
+        <div class="featured-news">
+          <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=85" alt="Estudiante trabajando con tecnología">
+          <article>
+            <small>18 OCT, 2023 · DIRECCIÓN ACADÉMICA</small>
+            <h3>Inauguración del Nuevo Centro de Innovación Tecnológica</h3>
+            <p>Un nuevo espacio para el aprendizaje y la experimentación que fortalece las oportunidades de nuestra comunidad educativa.</p>
+            <a class="text-link" href="#todas-noticias">Leer más →</a>
+          </article>
+          <aside>
+            <b>LO ÚLTIMO</b>
+            <p>Preparativos para la Feria de Ciencias Anual</p>
+            <p>Nuevos Convenios Internacionales de Intercambio</p>
+            <p>Taller de Mindfulness para el Manejo del Estrés</p>
+          </aside>
+        </div>
+
+        <div class="category-tabs" id="todas-noticias">
+          <button class="active" data-filter="all">TODAS</button>
+          <button data-filter="academia">ACADEMIA</button>
+          <button data-filter="comunidad">COMUNIDAD</button>
+          <button data-filter="deportes">DEPORTES</button>
+          <button data-filter="arte">ARTE Y CULTURA</button>
+        </div>
+
+        <div class="card-grid news-grid">
+          <article class="card" data-category="academia">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80" alt="Laboratorio escolar">
+            <small>14 NOV, 2023 · DPT. DE CIENCIAS</small><h3>Explorando el Futuro: Nueva Jornada de Experimentación en Laboratorios</h3><a class="text-link" href="#">Leer artículo completo →</a>
+          </article>
+          <article class="card" data-category="arte">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" alt="Actividad artística">
+            <small>10 NOV, 2023 · COORDINACIÓN DE ARTE</small><h3>El Color de la Creatividad: Exposición de Artes Visuales 2023</h3><a class="text-link" href="#">Leer artículo completo →</a>
+          </article>
+          <article class="card" data-category="deportes">
+            <img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=700&q=80" alt="Actividad deportiva">
+            <small>05 NOV, 2023 · CLUB DEPORTIVO</small><h3>Pasión en la Cancha: Resultados del Intercolegial de Atletismo</h3><a class="text-link" href="#">Leer artículo completo →</a>
+          </article>
+          <article class="card" data-category="comunidad">
+            <img src="https://images.unsplash.com/photo-1560439514-4e9645039924?auto=format&fit=crop&w=700&q=80" alt="Comunidad educativa">
+            <small>01 NOV, 2023 · SECRETARÍA</small><h3>Calendario de Admisiones 2024: Fechas y Requisitos</h3><a class="text-link" href="#">Leer artículo completo →</a>
+          </article>
+          <article class="card" data-category="comunidad">
+            <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80" alt="Actividad de bienestar">
+            <small>28 OCT, 2023 · SERVICIOS ESCOLARES</small><h3>Programa de Vida Saludable: Nuevos Menús en el Comedor</h3><a class="text-link" href="#">Leer artículo completo →</a>
+          </article>
+          <article class="card" data-category="academia">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80" alt="Clase de matemáticas">
+            <small>25 OCT, 2023 · DPTO. DE MATEMÁTICAS</small><h3>Olimpíadas de Matemática: Nuestros Finalistas</h3><a class="text-link" href="#">Leer artículo completo →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark-band">
+      <div class="container stats-intro">
+        <div><span class="icon-box">▣</span><h2>Crónica de nuestra comunidad</h2><p>¿Tienes una historia que contar? El blog LEKGS es un espacio abierto para que alumnos, docentes y familias compartan sus experiencias.</p><a class="btn light" href="#contacto">Enviar historia</a></div>
+        <div class="mini-stats"><div><strong>150+</strong><span>Artículos publicados</span></div><div><strong>2K+</strong><span>Lectores mensuales</span></div><div><strong>45</strong><span>Colaboradores activos</span></div><div><strong>12</strong><span>Categorías temáticas</span></div></div>
+      </div>
+    </section>
+
+    <section id="vida-escolar" class="section alt">
+      <div class="container">
+        <div class="two-col school-hero">
+          <div><span class="eyebrow">VIDA EN EL CAMPUS</span><h2 class="display">Donde el<br>aprendizaje<br>cobra vida<br>diaria</h2><p>La experiencia LEKGS trasciende los libros de texto. Es un ecosistema vibrante donde cada rincón es un escenario para el crecimiento, la colaboración y la excelencia humana.</p><div class="actions"><a class="btn primary" href="#actividades">Explorar Actividades</a><a class="btn secondary" href="#calendario">Ver Calendario</a></div></div>
+          <img class="hero-img" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=85" alt="Edificio y patio escolar">
+        </div>
+
+        <div id="actividades" class="center-head"><span class="eyebrow">PILARES DIARIOS</span><h2>Una Educación Integral</h2><p>Nuestras actividades están diseñadas para cultivar no solo el intelecto, sino también la creatividad y el carácter de nuestros alumnos.</p></div>
+        <div class="card-grid three">
+          <article class="card"><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=700&q=80" alt="Innovación en el aula"><h3>▣ Innovación en el Aula</h3><p>Metodologías activas y aprendizaje basado en proyectos que preparan a los estudiantes para los desafíos del siglo XXI.</p><a class="text-link" href="#">Saber más →</a></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=700&q=80" alt="Ciencia y descubrimiento"><h3>♧ Ciencia y Descubrimiento</h3><p>Laboratorios equipados con tecnología de punta donde la curiosidad se convierte en conocimiento científico real.</p><a class="text-link" href="#">Saber más →</a></article>
+          <article class="card"><img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=700&q=80" alt="Expresión creativa"><h3>◉ Expresión Creativa</h3><p>Talleres de arte y música que fomentan la sensibilidad estética y la libertad de expresión.</p><a class="text-link" href="#">Saber más →</a></article>
+        </div>
+
+        <div class="moments"><span class="eyebrow">EL DÍA A DÍA</span><h2>Momentos que Definen LEKGS</h2>
+          <div class="moment-row"><div><h3>Aprendizaje Colaborativo</h3><p>Fomentamos espacios donde los estudiantes lideran su propio proceso educativo. El trabajo en equipo es un sello metodológico.</p><div class="numbers"><b>120+</b><span>Proyectos anuales</span><b>Semanal</b><span>Mesas de debate</span></div></div><img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Estudiantes colaborando"></div>
+          <div class="moment-row reverse"><img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80" alt="Experimento en laboratorio"><div><h3>Rigor y Experimentación</h3><p>La teoría encuentra su validación en la práctica. Nuestros laboratorios son centros de innovación constante.</p><div class="numbers"><b>15</b><span>Publicaciones alumnos</span><b>8</b><span>Premios ciencia</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blue-stats"><div class="container stat-grid"><div><strong>450+</strong><span>Estudiantes activos</span></div><div><strong>98%</strong><span>Ingreso universitario</span></div><div><strong>35</strong><span>Talleres co-curriculares</span></div><div><strong>10K+</strong><span>Horas voluntariado</span></div></div></section>
+
+    <section id="entrevista" class="section">
+      <div class="container">
+        <div class="section-head"><div><span class="eyebrow">VOCES Y TALENTOS</span><h2>Entrevista del Mes</h2></div><a href="#">VER TODAS →</a></div>
+        <div class="interview">
+          <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=85" alt="Docente en entrevista">
+          <div><span class="eyebrow">OCTUBRE 2023 · VOCES</span><h2>Elena Martínez:<br><em>El arte como lenguaje</em></h2><p>Conversamos con la jefa del departamento de Artes Visuales sobre la importancia de la creatividad en la formación integral de los estudiantes.</p><a class="btn primary" href="#entrevista-completa">Leer entrevista</a></div>
+        </div>
+        <div id="entrevista-completa" class="article">
+          <h3>¿Qué la motivó a dedicarse a la enseñanza de las artes visuales?</h3>
+          <p>Desde muy joven entendí que el arte no es solo una forma de expresión, sino una herramienta de pensamiento crítico. En LEKGS encuentro el espacio ideal para fusionar la rigurosidad académica con la libertad creativa.</p>
+          <h3>¿Cuál ha sido el proyecto más desafiante?</h3>
+          <p>Un mural colaborativo liderado por estudiantes. Fue un desafío logístico y conceptual, pero demostró el poder del trabajo comunitario.</p>
+          <blockquote>“En cada pincelada hay una decisión, y en cada decisión, un aprendizaje profundo sobre uno mismo.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section">
+      <div class="container">
+        <span class="eyebrow">NUESTRA MEMORIA</span><h2>Galería de Recuerdos</h2><p>Capturamos los momentos que hacen historia en nuestro colegio.</p>
+        <div class="gallery">
+          <img src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=1100&q=85" alt="Exposición escolar">
+          <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=800&q=85" alt="Evento escolar">
+          <img src="https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=800&q=85" alt="Actividad deportiva">
+          <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=85" alt="Arte y creatividad">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-nosotros" class="section about">
+      <div class="container">
+        <div class="two-col about-hero"><div><span class="eyebrow">NUESTRA IDENTIDAD</span><h2 class="display">Formando mentes,<br>inspirando<br>corazones.</h2><p>El Colegio LEKGS no solo es una institución educativa; es una comunidad vibrante donde la curiosidad se encuentra con la disciplina, y el talento con la oportunidad.</p><p>Fundado bajo los principios de excelencia académica e integridad humana, LEKGS ha servido como foro de innovación pedagógica durante más de una década.</p></div><img class="hero-img" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85" alt="Comunidad educativa en biblioteca"></div>
+        <div class="mission-grid">
+          <div class="mission"><span class="eyebrow">NUESTRA MISIÓN</span><h3>Propósito Institucional</h3><p>Brindar educación integral de vanguardia que potencie las capacidades éticas, creativas y críticas de cada estudiante, preparándolos para liderar positivamente en un mundo globalizado.</p></div>
+          <div class="mission vision"><span class="eyebrow">NUESTRA VISIÓN</span><h3>Hacia el Futuro</h3><p>Consolidarnos como el centro educativo líder en la región, reconocido por la excelencia de nuestros egresados, la innovación constante y nuestro compromiso con el bienestar social.</p></div>
+        </div>
+        <div class="values"><span class="eyebrow">LO QUE NOS GUÍA</span><h2>Nuestros Valores Fundamentales</h2><div class="value-grid">
+          <div><h3>Excelencia Académica</h3><p>Buscamos el más alto estándar en todo lo que hacemos.</p></div><div><h3>Integridad Humana</h3><p>Promovemos honestidad, respeto y coherencia.</p></div><div><h3>Innovación Constante</h3><p>Abrazamos nuevas ideas y tecnologías.</p></div><div><h3>Comunidad Inclusiva</h3><p>Valoramos la diversidad como riqueza.</p></div><div><h3>Curiosidad Crítica</h3><p>Enseñamos a cuestionar, investigar y pensar.</p></div><div><h3>Responsabilidad Social</h3><p>Convertimos el aprendizaje en servicio.</p></div>
+        </div></div>
+        <div class="quote-band"><blockquote>“En LEKGS, entendemos que la educación no es llenar un cubo, sino encender un fuego. Nuestro compromiso es proporcionar la chispa y el entorno adecuado para que cada alumno brille con luz propia.”</blockquote><b>Dra. Mariela Quintana</b><small>Directora General, Colegio LEKGS</small></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="container two-col">
+        <div><span class="eyebrow">CONTÁCTANOS</span><h2>Estamos aquí para escucharte</h2><p>¿Tienes alguna duda, sugerencia o quieres colaborar con nuestro blog? Envíanos un mensaje y te responderemos.</p><div class="contact-list"><div>✉ contacto@lekgs.edu</div><div>☎ +57 (1) 1234-5678</div><div>⌖ Av. Escuela Moderna 123, Ciudad del Saber</div></div></div>
+        <form id="contactForm" class="form"><label>Nombre<input required type="text" name="name" placeholder="Tu nombre"></label><label>Email<input required type="email" name="email" placeholder="tu@email.com"></label><label>Asunto<input required type="text" name="subject" placeholder="Motivo de tu mensaje"></label><label>Mensaje<textarea required name="message" rows="5" placeholder="Escribe aquí tu mensaje..."></textarea></label><button class="btn primary" type="submit">Enviar Mensaje →</button><p class="form-msg" id="formMsg"></p></form>
+      </div>
+    </section>
+
+    <section class="newsletter"><div class="container"><span class="icon-box">▣</span><h2>¿Qué es nuestro blog?</h2><p>LEKGS Blog es el órgano de difusión oficial de nuestra comunidad. Un espacio de encuentro entre alumnos, padres y docentes.</p><a class="btn light" href="#contacto">Suscribirse al Newsletter</a></div></section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><b>Contacto</b><p>⌖ Av. Escuela Moderna 123<br>Ciudad del Saber, CP 12345</p><p>☎ +57 (1) 1234-5678<br>✉ info@lekgs.edu</p></div>
+      <div><b>Enlaces Rápidos</b><a href="#inicio">Inicio</a><a href="#noticias">Noticias</a><a href="#vida-escolar">Vida Escolar</a><a href="#galeria">Galería</a></div>
+      <div><b>Recursos</b><a href="#">Calendario Escolar</a><a href="#">Política de Privacidad</a><a href="#">Portal de Padres</a><a href="#">Admisiones</a></div>
+      <div><b>Síguenos</b><p>◉　◎　◌　in</p></div>
+    </div>
+    <div class="container copyright">© 2026 LEKGS. Todos los derechos reservados. Institución educativa comprometida con la excelencia.</div>
+  </footer>
+
+  <div class="search-modal" id="searchModal" aria-hidden="true">
+    <div class="search-box"><button id="closeSearch" aria-label="Cerrar">×</button><h2>Buscar en LEKGS</h2><input id="searchInput" type="search" placeholder="Escribe una palabra..."><div id="searchResults"></div></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
